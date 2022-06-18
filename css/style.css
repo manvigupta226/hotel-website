@@ -1,0 +1,208 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+body {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 h2 h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0pxs;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+/*Navbar*/
+#navbar {
+  background: black;
+  color: aliceblue;
+  overflow: auto;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar h1 a {
+  float: left;
+  padding: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover #navbar ul li a:current {
+  background: darkgray;
+  color: bisque;
+}
+
+/* showcase */
+#showcase {
+  background: url("../images/pexels-artem-beliaikin-988508.jpg") no-repeat
+    center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.text-primary {
+  color: burlywood;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: khaki;
+  color: #333;
+}
+
+.btn-light {
+  background: #bfa11c;
+  color: #333;
+}
+
+/* home info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("../images/pexels-tom-balabaud-1579739.jpg") no-repeat;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-img p {
+  padding: 50px;
+}
+
+/* features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  background: rgb(222, 208, 135);
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.725);
+  color: antiquewhite;
+  padding: 20px;
+}
+
+.clr {
+  clear: both;
+}
+
+/* About info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+.info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 10%;
+}
+
+.info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info {
+  padding: 30px 0px;
+}
+
+.large-heading {
+  font-size: 40px;
+  padding-bottom: 15px;
+  color: white;
+}
+
+/* testimonials */
+#testimonials {
+  height: 600px;
+  background: url("../images/pexels-iván-rivero-1001965.jpg") no-repeat center
+    center/cover;
+  padding-top: 40px;
+}
+
+#testimonials .testimonial img {
+  width: auto;
+  height: 200px;
+}
